@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulaire.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="/submit" method="post">
+        <table border="0">
+            <tr>
+                <td><label for="nom">Nom :</label></td>
+                <td><input type="text" id="nom" name="nom" placeholder="Votre nom"></td>
+            </tr>
+            <tr>
+                <td><label for="prenom">Prénom :</label></td>
+                <td><input type="text" id="prenom" name="prenom" placeholder="Votre prénom"></td>
+            </tr>
+            <tr>
+                <td><label for="pseudo">Pseudo :</label></td>
+                <td><input type="text" id="pseudo" name="pseudo" placeholder="Pseudo"></td>
+            </tr>
+            <tr>
+                <td><label for="mot de passe">Mot de Passe :</label></td>
+                <td><input type="password" id="mot de passe" name="mot de passe" placeholder="mot de passe"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" id="email" name="email" placeholder="exemple@domaine.com"></td>
+            </tr>
+            <tr>
+                <td><label for="avatar">Avatar :</label></td>
+                <td><input type="file" name="avatar" placeholder="choisir un fichier"></td>
+            </tr>
+            <tr>
+                <td><label for="pays">Pays</label></td>
+                <td><select><option>France</option><option>Espagne</option><option>Royaume-Uni</option><option>Allemagne</option></select></td>
+            </tr>
+            <tr>
+                <td><label for="departement">Code Postale :</label></td>
+                <td><input type="number" id="departement" name="departement" placeholder="Département"></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">Téléphone :</label></td>
+                <td><input type="number" id="telephone" name="telephone" placeholder="Votre numéro"></td>
+            </tr>
+            <tr>
+                <td><label for="adresse">Adresse :</label></td>
+                <td><textarea rows="5" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date de Naissance :</label></td>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td><label for="civilité">Civilité :</label></td>
+                <td>Homme&nbsp<input type="radio" name="homme">&nbspFemme&nbsp<input type="radio" name="femme">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fruit">Quel est votre fruit preferer ? :</label></td>
+                <td><input type="checkbox" name="Bannane">Bannane<input type="checkbox" name="pomme">Pomme</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="valider">
+                </td>
+            </tr> 
+        </table>
+    </form>
+    <a href="index.html">retour à l'accueil</a>   
+</body>
+</html>

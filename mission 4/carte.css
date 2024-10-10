@@ -1,0 +1,81 @@
+/* Style de base du body */
+body {
+    font-family: Arial, sans-serif; /* Police de caractères */
+    background-color: #f0f0f0; /* Couleur d'arrière-plan de la page */
+    display: flex; /* Utilisation du flexbox pour le centrage */
+    flex-direction: column; /* Alignement vertical */
+    align-items: center; /* Centrage horizontal */
+    justify-content: center; /* Centrage vertical */
+    height: 100vh; /* Hauteur de la fenêtre */
+    margin: 0; /* Suppression de la marge par défaut */
+}
+
+/* Style de la carte */
+.carte {
+    background-color: white; /* Couleur de fond de la carte */
+    border: 2px solid #4CAF50; /* Bordure de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espace intérieur */
+    text-align: center; /* Alignement du texte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+    width: 300px; /* Largeur fixe de la carte */
+}
+
+/* Styles des titres */
+.carte h1 {
+    margin: 0; /* Suppression de la marge */
+    font-size: 24px; /* Taille de police pour le titre principal */
+    color: #333; /* Couleur du texte */
+}
+
+.carte h2 {
+    margin: 10px 0; /* Marges pour le sous-titre */
+    font-size: 18px; /* Taille de police pour le sous-titre */
+    color: #666; /* Couleur du texte */
+}
+
+/* Style du paragraphe */
+.carte p {
+    font-size: 14px; /* Taille de police pour le texte */
+    color: #444; /* Couleur du texte */
+    margin: 15px 0; /* Marges pour le paragraphe */
+}
+
+/* Style des icônes de réseaux sociaux */
+.reseaux-sociaux {
+    margin-top: 15px; /* Marge en haut des réseaux sociaux */
+}
+
+/* Style des liens avec les icônes */
+.icon-link {
+    margin: 0 10px; /* Espacement entre les icônes */
+    display: inline-block; /* Pour un alignement correct */
+}
+
+/* Effet sur les icônes au survol */
+.icon-link img {
+    width: 30px; /* Largeur des icônes */
+    height: 30px; /* Hauteur des icônes */
+    transition: transform 0.3s ease; /* Transition pour l'animation */
+}
+
+.icon-link img:hover {
+    transform: scale(1.1); /* Effet d'agrandissement au survol */
+}
+
+/* Style du bouton retour à l'accueil */
+.retour {
+    margin-top: 20px; /* Marge en haut du bouton */
+}
+
+.retour a {
+    text-decoration: none; /* Suppression du soulignement */
+    color: #4CAF50; /* Couleur du lien */
+    font-weight: bold; /* Texte en gras */
+    font-size: 16px; /* Taille de police pour le lien */
+}
+
+.retour a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+    color: #333; /* Changement de couleur au survol */
+}
